@@ -1,0 +1,489 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    width: 100%;
+    margin: 0;
+    background-color: #f2f2f2; 
+}
+
+header {
+    width: 100%
+}
+
+.header-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-row .logo-section {
+    margin: 30px;
+    padding: 30px 50px;
+}
+
+.header-row .bar-section {
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    margin-bottom: 90%;
+}
+
+#painter-section {
+    background-image: url(../img/hero-bg.jpg);
+    width: 100%;
+    height: 150vh;
+    background-size: cover;
+    padding-top: 30%;
+}
+
+.container {
+    width: 60%;
+    margin-left: 80px;
+    margin-bottom: 70px;
+}
+
+#painter-section .container p {
+    font-size: 70px;
+    color: white;
+}
+
+#painter-section .container h1 {
+    font-size: 100px;
+    font-weight: 900;
+    color: white;
+}
+
+#painter-section .container .line {
+    width: 80%;
+    size: 40px;
+    height: 10%;
+    margin: 10px;
+    border-style: solid;
+    border-width: 5px;
+    color: white;
+    margin-top: 20px;
+}
+
+#painter-section .container img {
+    margin-top: 50px;
+    margin-right: 120px;
+}
+
+.text-section {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding-top: 10px;
+}
+
+.service-container {
+    text-align: center;
+}
+
+.service-section {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 80vh;
+}
+
+.service-paragraph {
+    padding-top: 100px;
+    background-color: #f2f2f2;
+    color: grey;
+    font-size: 25px;
+}
+
+.service-help {
+    padding-top: 30px;
+    font-size: 50px;
+}
+
+.service-maintance {
+    padding-top: 30px;
+    font-size: 2.5rem;
+    font-weight: 50px;
+    color: black;
+}
+
+.book-now {
+    padding-top: 20px;
+}
+
+.service-btn {
+    background-color: #e71a23;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 4px;
+}
+
+#help-section {
+    display: flex;
+    padding-top: 10%;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.plumer-one {
+    padding-right: 5px;
+    width: 100%;
+}
+
+.number-section {
+    padding-left: 7px;
+    width: 100%;
+}
+
+.number-section-img {
+    padding-left: 5%;
+    width: 100%;
+}
+
+#quality-section {
+    display: flex;
+    padding-top: 3%;
+    padding-right: 12%;
+    padding-left: 12%;
+    background-color: silver;
+}
+
+.quality-text h1 {
+    font-size: 60px;
+    font-family: Roboto, sans-serif;
+    margin-bottom: 20px;
+}
+
+.quality-text p {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    padding-top: 30%;
+    font-size: 1.5rem;
+}
+
+.quality-text button {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    padding-left: 3%;
+    padding-right: 7%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: #e71a23;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    width: 55%;
+    height: 10vh;
+}
+
+.man-section {
+    width: 50%;
+}
+
+.quality-text .horizontal-line {
+    width: 100%;
+    size: 20px;
+    height: 10px;
+    border-style: solid;
+    border-width: 8px;
+    color: #e71a23;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+#our-services {
+    width: 100%;
+    padding-top: 8%;
+    padding-right: 8%;
+    padding-left: 10%;
+}
+
+.services-section h1 {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.services {
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    padding-top: 5%;
+}
+
+.services-icon .text-sevices {
+    padding-top: 15%;
+    padding-right: 12%;
+}
+
+.services-icon .text-services {
+    padding-top: 15%;
+    padding-right: 12%
+}
+
+.services-icon .text-services {
+    padding-top: 15%;
+    padding-right: 12%
+}
+
+.services-icon .services-para {
+    padding-top: 18%;
+}
+
+.services-image {
+    background-color: #e71a23;
+    color: white;
+    border-radius: 60%;
+    width: 30%;
+    padding-top: 3%;
+}
+
+.sevices-image {
+    width: 30%;
+    background-color: #e71a23;
+    color: white;
+    border-radius: 60%;
+    padding-top: 3%;
+}
+
+#about-section {
+    display: flex;
+    background-color: #104e92;
+    width: 100%;
+    margin-top: 50px;
+    flex-direction: row;
+    color: white;
+    padding-bottom: 3%;
+}
+
+.about-section .about-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+}
+
+.about-section .about-text p{
+    font-size: 35px;
+    font-family: roboto,sans-serif;
+}
+
+.about-section .about-text h3 {
+    font-size: 80px;
+    font-family: roboto,sans-serif;
+}
+
+#about-section .about-container {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+
+.about-text {
+    width: 50%;
+}
+
+.image-section {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.first-image {
+    width: 48%;
+    margin-bottom: 30px;
+}
+
+.first-image img {
+    width: 100%;
+}
+
+.image-section .image-section-row-one {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.image-section .image-section-row-two {
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+}
+
+.professional-part, .to-do, .mission-part, .btn-section {
+    text-align: center;
+}
+
+.to-do {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.mission-part {
+    font-size: 30px;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.btn-section {
+    display: flex;
+    flex-direction: row;
+    margin-left: 8%;
+    justify-content: center;
+}
+
+.btn-book {
+    background-color: #e71a23;
+    border: none;
+    border-radius: 2px;
+    padding: 15px 60px;
+}
+
+.btn-call {
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 2px;
+    margin-left: 3%;
+    padding: 15px 60px;
+}
+
+.to-do {
+    padding-top: 5%;
+}
+
+.mission-part {
+    padding-top: 5%;
+}
+
+.btn-section {
+    padding-top: 5%;
+}
+
+
+@media (max-width: 769px) {
+    #painter-section {
+        background-position: 81.49% 50%;;
+    }
+
+#painter-section .container p {
+    font-size: 3rem;
+    letter-spacing: 3px;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-style: normal;
+    position: relative;
+}
+
+#painter-section .container h1 {
+    font-size: 5rem;
+    font-weight: 700;
+    font-family: "archivo black";
+    margin: 0;
+} 
+
+.container {
+    width: 80%;
+    margin: 230px auto;
+}
+    .text-section {
+        display: none;
+    }
+
+#service-section .service-container .service-maintance {
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+#help-section {
+    display: flex;
+    flex-direction: column;
+}
+
+#about-section .about-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#about-section .image-section {
+    width: 80%;
+}
+
+}
+
+@media(max-width: 426px) {
+    #painter-section .container h1 {
+        font-size: 3.265rem;
+    }
+
+    .text-section {
+        display: none;
+    }
+
+    #painter-section {
+        background-position: 81.49% 50%;
+        height: 130vh;
+    }
+
+    #painter-section .container p {
+        font-size: 2.25rem;
+        margin-top: 200px;
+    }
+
+    .container {
+        width: 90%;
+        margin: 30px auto;
+    }
+
+    .image-section {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .image-section .image-section-row-one {
+        flex-direction: column;
+    }
+
+    .first-image {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .first-image img {
+        width: 100%;
+    }
+
+    .services {
+        flex-direction: column;
+    }
+
+    .services-icon {
+        width: 100%;
+    }
+
+    #quality-section {
+        flex-direction: column;
+        padding:80px 30px ;
+    }
+
+    .man-section {
+        width: 100%;
+    }
+
+    .man-section img {
+        width: 100%;
+    }
+
+    #help-section {
+        flex-direction: column;
+        padding: 80px 30px;
+    }
+}
+
+    
