@@ -397,8 +397,61 @@ header {
     }
 
 #service-section .service-container .service-maintance {
+    text-align: center;
     line-height: 1.6;
     font-size: 1rem;
+}
+
+.service-container {
+    background-color: #f2f2f2;;
+}
+
+.service-help {
+    width: 540px;
+    font-weight: 700;
+    font-size: 3.125rem;
+    margin: 20px auto 0;
+}
+
+.service-maintance {
+    word-wrap: break-word;
+    padding: 0;
+    display: block;
+    margin-block-start:  1em;
+    margin-block-end:  1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.number-section .h2 {
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: 700;
+    font-size: 2.25rem;
+    margin: 0;
+    line-height: 1.1;
+    font-family: Roboto,sans-serif;
+}
+
+#quality-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+}
+
+#about-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-section-row-one {
+    display: flex;
+    flex-direction: column;
 }
 
 #help-section {
